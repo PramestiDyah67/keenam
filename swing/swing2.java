@@ -52,7 +52,7 @@ import java.awt.*;
 			bg.add(rb2);
 			
 			
-			cp.add(b = new JButton("Simpan"));
+			cp.add(b = new JButton("Kalkulasi"));
 			this.setVisible(true); 
 			b.addActionListener((ActionListener) this);
 		}
@@ -88,7 +88,7 @@ import java.awt.*;
 					
 				}
 				JFrame frame = new JFrame();
-				frame.setTitle("struk belanja");
+				frame.setTitle("Data Pembelian");
 				//	Menentukan ukuran Frame
 		frame.setSize(400, 300);
 		
