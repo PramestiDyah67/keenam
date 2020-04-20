@@ -94,22 +94,22 @@ import java.awt.*;
 		
 		Integer angka=Integer.parseInt(txAngka.getText());
 				total=(angka*harga)-(angka*diskon*harga);
-				System.out.println("Radio Button Memilih: "+radio);
 				String combo = cb.getSelectedItem().toString();
-				System.out.println("ComboBox Memilih: "+combo);
+				System.out.println("Pilih Barang: "+combo);
+				System.out.println("Jenis Pembelian: "+radio);
 				System.out.println("jumlah: "+angka);
-				System.out.println("harga awal: "+angka*harga);
-				System.out.println("diskon: "+diskon);
-				System.out.println("total: "+(total));
+				System.out.println("Harga: "+angka*harga);
+				System.out.println("Diskon: "+diskon);
+				System.out.println("Total: "+(total));
 
 		//	Membuat letak Frame berada di tengat ketika program dijalankan
 		frame.setLocationRelativeTo(null);
-		JLabel label = new JLabel("keanggotaan = "+radio);
-		JLabel label2 = new JLabel("barang = "+combo);
-		JLabel label3 = new JLabel("jumlah= "+angka);
-		JLabel label4 = new JLabel("harga awal= "+angka*harga);
-		JLabel label5 = new JLabel("diskon= "+angka*harga*diskon);
-		JLabel label6 = new JLabel("total= "+total);
+		JLabel label2 = new JLabel("Nama Barang = "+combo);
+		JLabel label = new JLabel("Member = "+radio);
+		JLabel label3 = new JLabel("Jumlah Barang= "+angka);
+		JLabel label4 = new JLabel("Harga Awal= "+angka*harga);
+		JLabel label5 = new JLabel("Diskon= "+angka*harga*diskon);
+		JLabel label6 = new JLabel("Total= "+total);
 		
 		//	Menentukan layout Frame
 		frame.setLayout(null);
