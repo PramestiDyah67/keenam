@@ -87,12 +87,13 @@ import java.awt.*;
 					harga=900000;
 					
 				}
+				
 				JFrame frame = new JFrame();
 				frame.setTitle("Data Pembelian");
 				//	Menentukan ukuran Frame
 		frame.setSize(400, 300);
 		
-		Integer angka=Integer.parseInt(txAngka.getText());
+				Integer angka=Integer.parseInt(txAngka.getText());
 				total=(angka*harga)-(angka*diskon*harga);
 				String combo = cb.getSelectedItem().toString();
 				System.out.println("Pilih Barang: "+combo);
