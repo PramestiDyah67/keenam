@@ -3,8 +3,6 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
-import com.d3ti.pbolanjt20.thread.project.JavaTimer.TimeClass;
-import com.d3ti.pbolanjt20.thread.project.JavaTimer.event;
 
 public class JavaTimer extends JFrame {
 
